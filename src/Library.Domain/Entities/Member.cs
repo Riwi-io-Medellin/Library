@@ -1,5 +1,4 @@
 using Library.Domain.Abstractions;
-using Library.Domain.ValueObjects;
 
 namespace Library.Domain.Entities;
 
@@ -9,9 +8,9 @@ namespace Library.Domain.Entities;
 public class Member : Entity
 {
     public string Name { get; private set; }
-    public Email Email { get; private set; }
+    public string Email { get; private set; }
 
-    public Member(string name, Email email)
+    public Member(string name, string email)
     {
         Name = name;
         Email = email;

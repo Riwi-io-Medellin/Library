@@ -1,4 +1,4 @@
-# Library
+# Library – Práctica de la capa Application
 
 Una biblioteca que presta libros a sus miembros. Es un proyecto para practicar **Clean Architecture** y **DDD** en .NET 10.
 
@@ -30,7 +30,7 @@ Más adelante llegarán las capas de Infrastructure y API.
 | `Errors/` | Catálogos de errores del dominio |
 | `Events/` | Eventos del dominio (cosas que ya pasaron) |
 | `Exceptions/` | Excepciones del dominio |
-| `ValueObjects/` | Objetos de valor, como `Email` |
+| `ValueObjects/` | Objetos de valor, como `LoanPeriod` |
 
 ## Ejercicio
 

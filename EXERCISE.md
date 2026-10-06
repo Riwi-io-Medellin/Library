@@ -10,7 +10,7 @@ Ahora mismo el dominio **no valida nada**: se puede prestar un libro sin copias 
 - [ ] Errores sugeridos:
   - [ ] No hay copias disponibles.
   - [ ] El préstamo ya fue devuelto.
-  - [ ] La fecha límite es anterior a la del préstamo.
+  - [ ] La fecha límite es anterior a la del préstamo (pista: valídalo en `LoanPeriod`).
   - [ ] El email no es válido.
   - [ ] El título o el nombre están vacíos.
 
